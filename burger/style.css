@@ -1,0 +1,17 @@
+.b2, .b3 {
+    width: 30px;
+    transition: transform ease-in-out 0.5s;
+}
+
+.burger:hover .b1,.burger:hover .b2,.burger:hover .b3 {
+    fill: #FF9900;
+}
+
+.burger:hover .b2{
+    transform: translateX(5px);
+}
+
+.burger:hover .b3{
+    transform: translateX(12px);
+}
+
